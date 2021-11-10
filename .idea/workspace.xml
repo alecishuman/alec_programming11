@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccad8560-a720-4dcd-9b57-bc55d857817f" name="Changes" comment="" />
+    <list default="true" id="ccad8560-a720-4dcd-9b57-bc55d857817f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/expressions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/expressions/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/expressions" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +39,7 @@
       <workItem from="1636498657503" duration="10000" />
       <workItem from="1636498691785" duration="40000" />
       <workItem from="1636498760496" duration="161000" />
+      <workItem from="1636568440239" duration="355000" />
     </task>
     <servers />
   </component>
@@ -52,5 +56,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -33,18 +33,23 @@ public class Main {
         }
         else
         {
-            System.out.println( "We still can't decide. \n\n" );
+            System.out.println( "We still can't decide." );
         }
 
 
         if ( people > buses )
         {
-            System.out.println( "All right, let's just take the buses. \n\n" );
+            System.out.println( "All right, let's just take the buses." );
         }
         else
         {
             System.out.println( "Fine, let's stay home then.\n\n" );
         }
+
+        System.out.println("1. It goes through different conditions to determine whether or not we should take the car, bus, or stay home." +
+                "The if else statements are comparing the different variables to print out the statements. \n" +
+                "2. If I remove the first else-if statement, it won't affect anything with the given variables. However, if the variables are" +
+                "changed so that cars < people, then it would print out 'We can't decide' instead of 'We should not take the car'.");
 
         System.out.println("Assignment 2: \n");
         System.out.print("Hey, what's your name? (Sorry, I keep forgetting)");

@@ -9,6 +9,8 @@ public class Main {
     public static int loss = 0;
     public static int draw = 0;
 
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //        Random intro to program

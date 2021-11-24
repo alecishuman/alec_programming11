@@ -42,5 +42,17 @@ public class Main {
             System.out.print(num+" ");
         }
         System.out.println();
+        randomArray = pop(randomArray);
+        for (int num:
+                randomArray) {
+            System.out.print(num+" ");
+        }
+        System.out.println();
+        randomArray = insert(randomArray, 2, 12);
+        for (int num:
+                randomArray) {
+            System.out.print(num+" ");
+        }
+        System.out.println();
     }
 }

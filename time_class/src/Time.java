@@ -66,7 +66,7 @@ public class Time {
         if (this.hour == 24) {
             this.hour = 0;
         }
-        return new Time(this.hour, this.minute, this.second);
+        return this;
     }
 
     public Time previousSecond() {
@@ -82,6 +82,6 @@ public class Time {
         if (this.hour == -1) {
             this.hour = 23;
         }
-        return new Time(this.hour, this.minute, this.second);
+        return this;
     }
 }

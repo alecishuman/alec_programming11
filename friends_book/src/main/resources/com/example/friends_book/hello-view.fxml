@@ -95,6 +95,11 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
+                  <Button fx:id="delete_friend2" alignment="CENTER" contentDisplay="CENTER" layoutX="345.0" layoutY="227.0" mnemonicParsing="false" onAction="#delete_friend2" prefHeight="40.0" prefWidth="105.0" text="Delete Friend">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
                   <ListView fx:id="friends_list" layoutX="14.0" layoutY="15.0" onMouseClicked="#displayFriend" prefHeight="339.0" prefWidth="199.0" />
                   <Label fx:id="display_title" layoutX="314.0" layoutY="15.0" prefHeight="49.0" prefWidth="197.0" text="Add Friend">
                      <font>

@@ -62,4 +62,20 @@ public class HelloController {
         display_age.setText(Integer.toString(temp.getAge()));
         display_gpa.setText(Double.toString(temp.getGpa()));
     }
+
+    public void delete_friend2(ActionEvent actionEvent) {
+        for (int i = 0; i < friends.size(); i++) {
+            if (friends.get(i).getName().equals(display_name.getText())) {
+                friends.remove(i);
+                friends_list.getItems().remove(i);
+                break;
+            }
+        }
+        display_name.setText("");
+        display_age.setText("");
+        display_gpa.setText("");
+        if (friends.size() == 0) {
+            display_title.setText("Add Friend");
+        }
+    }
 }

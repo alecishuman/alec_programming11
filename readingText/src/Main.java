@@ -5,15 +5,37 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ArrayList<String> sentences = new ArrayList<>();
+        String file = "";
         FileReader fr = new FileReader("ProgrammingHistory.txt");
         BufferedReader br = new BufferedReader(fr);
         String line;
         while((line = br.readLine()) != null) {
-            sentences.add(line);
+            file += line;
         }
         br.close();
+        ArrayList<String> sentences = splitIntoSentence(file);
+        for (String asdf:
+             sentences) {
+            System.out.println(asdf);
+        }
         System.out.println(findWord(sentences, "computer"));
+    }
+
+    public static ArrayList<String> splitIntoSentence(String lines) {
+        ArrayList<String> sentences = new ArrayList<>();
+        int prevPos = 0;
+        int afterPos = 0;
+        for (int i = 0; i < lines.length(); i++) {
+            if (lines.substring(i, i + 1).equals(".")) {
+                if (i < lines.length() - 1 && !lines.substring(i-1, i+3).equals("e.g.") && !lines.substring(i-3, i+1).equals("e.g.")) {
+                    afterPos = i+1;
+                    sentences.add(lines.substring(prevPos, afterPos));
+                    prevPos = i+1;
+                }
+            }
+        }
+        sentences.add(lines.substring(prevPos, lines.length()));
+        return sentences;
     }
 
     public static String findWord(ArrayList<String> lines, String word) {

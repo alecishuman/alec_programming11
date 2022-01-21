@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished" />
+    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgrammingHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgrammingHistory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642630551093</updated>
       <workItem from="1642630552652" duration="1692000" />
+      <workItem from="1642802991002" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="reading text finished">
       <created>1642632217914</created>
@@ -88,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reading text finished" />

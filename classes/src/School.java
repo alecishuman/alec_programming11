@@ -7,7 +7,9 @@ public class School {
     private String location;
     private int phone;
 
-    public School(String name, String location, int phone) {
+    public School(String name, String location, int phone, ArrayList<Teacher> teachers, ArrayList<Student> students) {
+        this.teachers = teachers;
+        this.students = students;
         this.name = name;
         this.location = location;
         this.phone = phone;

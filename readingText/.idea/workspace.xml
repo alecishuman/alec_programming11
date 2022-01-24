@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/readingText/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/readingText/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <updated>1642630551093</updated>
       <workItem from="1642630552652" duration="1692000" />
       <workItem from="1642802991002" duration="1306000" />
-      <workItem from="1643040843862" duration="139000" />
+      <workItem from="1643040843862" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="reading text finished">
       <created>1642632217914</created>
@@ -84,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642804279680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reading text finished">
+      <created>1643058597917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643058597917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

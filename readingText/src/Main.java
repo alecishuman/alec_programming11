@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
+    public static String checkThisWord = "computer";
     public static void main(String[] args) throws IOException {
         String file = "";
         FileReader fr = new FileReader("ProgrammingHistory.txt");
@@ -18,7 +19,7 @@ public class Main {
              sentences) {
             System.out.println(asdf);
         }
-        System.out.println(findWord(sentences, "computer"));
+        System.out.println(findWord(sentences, checkThisWord));
     }
 
     public static ArrayList<String> splitIntoSentence(String lines) {
@@ -43,7 +44,7 @@ public class Main {
         for (int i = 0; i < lines.size(); i++) {
             String[] words = lines.get(i).split(" ");
             if (containWord(words, word)) {
-                out += "Sentence " + i + ", Words: ";
+                out += "Sentence Index: " + i + ", Words: ";
                 for (int j = 1; j < words.length + 1; j++) {
                     if (words[j-1].equals(word)) {
                         out += j + " ";

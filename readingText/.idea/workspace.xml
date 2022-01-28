@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished" />
+    <list default="true" id="274e2173-33f0-4a9e-bd8b-65d6a03676b6" name="Changes" comment="reading text finished">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/readingText/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/readingText/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +70,8 @@
       <workItem from="1642630552652" duration="1692000" />
       <workItem from="1642802991002" duration="1306000" />
       <workItem from="1643040843862" duration="190000" />
+      <workItem from="1643146686131" duration="238000" />
+      <workItem from="1643147328714" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="reading text finished">
       <created>1642632217914</created>

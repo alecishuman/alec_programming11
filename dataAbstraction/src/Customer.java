@@ -22,8 +22,8 @@ public class Customer {
     public Customer(String name, int accountNumber, double checkDeposit, double savingDeposit){
         this.name = name;
         this.accountNumber = accountNumber;
-        deposit(checkDeposit, new Date(), CHECKING);
-        deposit(savingDeposit, new Date(), SAVING);
+        this.checkBalance = checkDeposit;
+        this.savingBalance = savingDeposit;
     }
 
 //    Deposit a certain amount in either account
@@ -52,7 +52,7 @@ public class Customer {
     }
 
 //    Check the overdraft of either account
-    private boolean checkOverdraft(double amt, String account){
+    public boolean checkOverdraft(double amt, String account){
         if (account.equals(CHECKING) && checkBalance < OVERDRAFT) {
             return true;
         } else if (account.equals(SAVING) && savingBalance < OVERDRAFT) {
